@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Контакти | Термострой 07</title>
+  <meta name="description" content="Заявете безплатен оглед, свържете се с нас на дадения телефон или изпратете запитване чрез формата." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-project-page="projects.html">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Термострой 07</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html">Начало</a>
+        <a href="services.html">Услуги</a>
+        <a href="projects.html">Проекти</a>
+        <a class="active" href="contact.html">Контакти</a>
+      </nav>
+      <div class="lang-switcher" aria-label="Language switcher">
+        <span class="lang-badge is-active" aria-current="true">BG</span>
+        <a class="lang-link" href="en-contact.html" aria-label="Switch to English">EN</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <!-- <p class="eyebrow">Заявете безплатен оглед още сега!</p> -->
+        <h2>Заявете безплатен оглед още сега!</h2>
+        <h2>Свържете се с нас директно на телефон: +359 88 9990641</h2>
+        <h2>Или ни изпратете запитване:</h2>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-info reveal">
+          <h2>Контактна информация</h2>
+          <p><strong>Телефон:</strong> +359 88 9990641</p>
+          <p><strong>Имейл:</strong> termostroi07@gmail.com</p>
+          <p><strong>Обслужван район:</strong> град София и регион София</p>
+          <p><strong>Работно време:</strong> Пон-Пет, 8:00-18:00</p>
+        </div>
+
+        <form class="contact-form reveal" action="#" method="post">
+          <label for="name">Име</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Имейл</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="project">Тип проект</label>
+          <select id="project" name="project" required>
+            <option value="">Изберете тип проект</option>
+            <option>Ремонт на жилище</option>
+            <option>Търговски обект</option>
+            <option>Външни подобрения</option>
+            <option>Друго</option>
+          </select>
+
+          <label for="message">Описание</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Изпрати</button>
+          <p class="form-note">Тази форма е демо версия. Свържете я с предпочитания от вас имейл или CRM услуга.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Термострой 07</p>
+      <p>Качеството е стандарт.</p>
+      <div class="social-links" aria-label="Социални мрежи">
+        <span class="social-title">Намерете ни:</span>
+        <a class="social-link" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a class="social-link" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Google</a>
+        <a class="social-link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
