@@ -1,5 +1,5 @@
 :root {
-  --bg: #edf0f4;
+  --bg: #e0e3e7;
   --surface: #ffffff;
   --surface-2: #e5e9ef;
   --ink: #132f4b;
@@ -205,7 +205,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-size: 0.78rem;
-  color: var(--accent);
+  color: #b76508;
   font-weight: 700;
 }
 
